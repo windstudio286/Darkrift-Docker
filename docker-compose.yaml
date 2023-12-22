@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+ game_server:
+   platform: linux/amd64
+   image: darkrift_server:latest
+   build:
+     context: .
+   expose:
+      - "4296/udp"
+      - "4296/tcp"
+      - "10666"
+   ports:
+     - "4296:4296/udp"
+     - "4296:4296/tcp"
+     - "10666:10666"
+   healthcheck:
+    test: ["CMD", "curl", "-f", "http://localhost:10666/health"]
+    interval: 10s
+    timeout: 10s
+    retries: 3
+   tty: true
