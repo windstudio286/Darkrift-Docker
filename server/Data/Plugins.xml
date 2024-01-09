@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<plugins nextID="14">
+<plugins nextID="20">
   <plugin id="0" name="HelpCommand" version="1.0.0" />
   <plugin id="1" name="PluginController" version="1.0.0" />
   <plugin id="2" name="Sniffer" version="1.0.0" />
@@ -14,4 +14,10 @@
   <plugin id="11" name="BadWordFilter" version="1.0.0" />
   <plugin id="12" name="AgarPlayerManager" version="1.0.0" />
   <plugin id="13" name="AgarFoodManager" version="1.0.0" />
+  <plugin id="14" name="RoomSystem" version="1.0.0" />
+  <plugin id="15" name="Chat" version="1.0.0" />
+  <plugin id="16" name="DatabaseProxy" version="1.0.0" />
+  <plugin id="17" name="MySqlConnector" version="1.0.0" />
+  <plugin id="18" name="Friends" version="1.0.0" />
+  <plugin id="19" name="Login" version="1.0.0" />
 </plugins>
